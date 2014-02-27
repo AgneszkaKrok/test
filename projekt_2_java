@@ -1,0 +1,11 @@
+Projekt 2 
+Wymagania :
+1.	szyfrujemy tekst z pliku pobieranego z dysku , wyniki zapisujemy w pliku na dysku, szyfrujemy tekst w blokach po 10 znaków, bloki zapisujemy oddzielając dowolnym separatorem, kucz tworzymy dla konkretnego użytkownika, identyfikując go po numerze pesel, który zczytujemy z klawiatury 
+2.	stosujemy ustalone liczby pierwsze
+RSA-768 p=33478071698956898786044169848212690817704794983713768568912431388982883793
+          878002287614711652531743087737814467999489
+        q=36746043666799590428244633799627952632279158164343087642676032283815739666
+          511279233373417143396810270092798736308917
+3.	Zestaw  kluczy (n, e),(n, d) zaimplementowany  w postaci singletona 
+4.	Do obliczeń na dużych liczbach wykorzystujemy bibliotekę BigInteger
+5.	Kod umieszczamy w repozytorium git 
